@@ -1,0 +1,7 @@
+# Ignore everything inside DATA and cleaned
+DATA/*
+cleaned/*
+
+# But keep the folders themselves
+!DATA/.gitkeep
+!cleaned/.gitkeep
